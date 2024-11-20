@@ -1,0 +1,42 @@
+body{
+    background-image: url(timeimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.clock{
+    width: 100vw;
+    padding: 10px 0;
+    background-size: cover;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    animation: pulse 2s infinite ease-in-out;
+    transition: transform 0.3s ease;
+}
+
+.clock:hover {
+    transform: scale(1.05);
+} 
+
+
+
+
+
+
